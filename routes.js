@@ -1,5 +1,6 @@
+const { clear } = require('console');
 const fs = require('fs');
-
+clear
 const requestHandler = (req, res) => {
   const url = req.url;
   const method = req.method;
